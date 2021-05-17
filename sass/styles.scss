@@ -1,0 +1,115 @@
+// Colors
+$bright-orange: hsl(31, 77%, 52%);
+$cyan: hsl(184, 100%, 22%);
+$dark-cyan: hsl(179, 100%, 13%);
+$trans-white: hsla(0, 0%, 100%, 0.75);
+$light-grey: hsl(0, 0%, 95%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan {
+  background-color: $bright-orange;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  button {
+    color: $bright-orange;
+  }
+}
+
+.suv {
+  background-color: $cyan;
+
+  button {
+    color: $cyan;
+  }
+}
+
+.luxury{
+  background-color: $dark-cyan;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+  button {
+    color: $dark-cyan;
+  }
+}
+
+.container {
+  margin: 5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 3rem;
+  height: 33%;
+
+  .card-header {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: $light-grey;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+  }
+
+  .card-text {
+    color: $trans-white;
+    padding-bottom: 2rem;
+    line-height: 1.75;
+  }
+
+  button {
+    padding: 1rem;
+    width: 146px;
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border: 2px solid $trans-white;
+
+    &:hover {
+      background-color: transparent;
+      color: $trans-white;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    max-width: 920px;
+    margin: 10rem auto;
+  }
+
+  .card {
+    width: 33%;
+    height: 500px;
+  }
+
+  .sedan {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .luxury {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  button {
+    margin-top: 30px;
+  }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
