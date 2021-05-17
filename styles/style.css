@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  margin: 5rem 1.5rem;
+  margin: 6rem 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -59,10 +59,9 @@ body {
 .card button {
   padding: 1rem;
   width: 146px;
-  border-radius: 25px;
+  border-radius: 30px;
   font-family: "Lexend Deca", sans-serif;
   font-size: 1rem;
-  border: none;
   border: 2px solid rgba(255, 255, 255, 0.75);
 }
 .card button:hover {
@@ -74,7 +73,7 @@ body {
   .container {
     flex-direction: row;
     max-width: 920px;
-    margin: 10rem auto;
+    margin: 11rem auto;
   }
 
   .card {
