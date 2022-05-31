@@ -37,7 +37,7 @@ Hover state for interactive element:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/3column-preview-card-component-section-using-sass-Dgk9eyl-i)
-- Live Site URL: [Github Pages](https://timmartin13.github.io/3-column-preview-card-component-main/)
+- Live Site URL: [Github Pages](https://timmartin13-frontend-mentor.github.io/3-column-preview-card-component-main/)
 
 ## My process
 
